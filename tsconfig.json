@@ -9,8 +9,9 @@
   "references": [
     {
       "path": "./projects/deck/tsconfig.app.json"
-    }, {
+    },
+    {
       "path": "./projects/deck/tsconfig.spec.json"
-    }
+    },
   ]
 }

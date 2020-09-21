@@ -374,24 +374,24 @@
         }
       },
       "root": "projects/theme-fuse",
-      "sourceRoot": "projects/deck/src",
+      "sourceRoot": "projects/theme-fuse/src",
       "prefix": "app",
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/theme-fuse",
-            "index": "projects/deck/src/index.html",
-            "main": "projects/deck/src/main.ts",
-            "polyfills": "projects/deck/src/polyfills.ts",
-            "tsConfig": "projects/deck/tsconfig.app.json",
+            "index": "projects/theme-fuse/src/index.html",
+            "main": "projects/theme-fuse/src/main.ts",
+            "polyfills": "projects/theme-fuse/src/polyfills.ts",
+            "tsConfig": "projects/theme-fuse/tsconfig.app.json",
             "aot": true,
             "assets": [
-              "projects/deck/src/favicon.ico",
-              "projects/deck/src/assets"
+              "projects/theme-fuse/src/favicon.ico",
+              "projects/theme-fuse/src/assets"
             ],
             "styles": [
-              "projects/deck/src/styles.scss"
+              "projects/theme-fuse/src/styles.scss"
             ],
             "scripts": []
           },
@@ -399,8 +399,8 @@
             "production": {
               "fileReplacements": [
                 {
-                  "replace": "projects/deck/src/environments/environment.ts",
-                  "with": "projects/deck/src/environments/environment.prod.ts"
+                  "replace": "projects/theme-fuse/src/environments/environment.ts",
+                  "with": "projects/theme-fuse/src/environments/environment.prod.ts"
                 }
               ],
               "optimization": true,
@@ -446,16 +446,16 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "main": "projects/deck/src/test.ts",
-            "polyfills": "projects/deck/src/polyfills.ts",
-            "tsConfig": "projects/deck/tsconfig.spec.json",
-            "karmaConfig": "projects/deck/karma.conf.js",
+            "main": "projects/theme-fuse/src/test.ts",
+            "polyfills": "projects/theme-fuse/src/polyfills.ts",
+            "tsConfig": "projects/theme-fuse/tsconfig.spec.json",
+            "karmaConfig": "projects/theme-fuse/karma.conf.js",
             "assets": [
-              "projects/deck/src/favicon.ico",
-              "projects/deck/src/assets"
+              "projects/theme-fuse/src/favicon.ico",
+              "projects/theme-fuse/src/assets"
             ],
             "styles": [
-              "projects/deck/src/styles.scss"
+              "projects/theme-fuse/src/styles.scss"
             ],
             "scripts": []
           }
@@ -464,9 +464,9 @@
           "builder": "@angular-devkit/build-angular:tslint",
           "options": {
             "tsConfig": [
-              "projects/deck/tsconfig.app.json",
-              "projects/deck/tsconfig.spec.json",
-              "projects/deck/e2e/tsconfig.json"
+              "projects/theme-fuse/tsconfig.app.json",
+              "projects/theme-fuse/tsconfig.spec.json",
+              "projects/theme-fuse/e2e/tsconfig.json"
             ],
             "exclude": [
               "**/node_modules/**"
@@ -476,7 +476,7 @@
         "e2e": {
           "builder": "@angular-devkit/build-angular:protractor",
           "options": {
-            "protractorConfig": "projects/deck/e2e/protractor.conf.js",
+            "protractorConfig": "projects/theme-fuse/e2e/protractor.conf.js",
             "devServerTarget": "theme-fuse:serve"
           },
           "configurations": {
@@ -772,6 +772,6 @@
   },
   "defaultProject": "deck",
   "cli": {
-    "analytics": "40924e2c-5f18-49a9-aeae-eec93cd69722"
+    "analytics": "d68af4b5-e06d-4c4a-8c46-6e217920fff3"
   }
 }
