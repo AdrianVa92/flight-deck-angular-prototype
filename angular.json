@@ -30,7 +30,7 @@
             "styles": [
               "./node_modules/bootstrap/dist/css/bootstrap.css",
               "projects/deck/src/assets/styles.scss",
-              "projects/deck/src/styles.scss",
+              "projects/deck/src/styles.scss"
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.js",
